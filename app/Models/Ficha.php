@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Ficha extends Model
 {
+    use HasFactory;
+    
     protected $table = 'imofic';
-    public $primary_key = 'sr_recno';
+    public $primaryKey = 'sr_recno';
     // public $incrementing = false;
 
     public function contrato() {

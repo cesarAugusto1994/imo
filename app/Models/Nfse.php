@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 class Nfse extends Model
 {
     protected $table = 'imonnf';
-    public $primary_key = 'sr_recno';
+    public $primaryKey = 'sr_recno';
     // public $incrementing = false;
 
     //Itens da Nfse (imonfi)

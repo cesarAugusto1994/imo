@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Lancamento extends Model
 {
     protected $table = 'imolan';
-    public $primary_key = 'sr_recno';
+    public $primaryKey = 'sr_recno';
     // public $incrementing = false;
 
     public function contrato() {

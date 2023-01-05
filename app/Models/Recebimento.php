@@ -2,13 +2,16 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 
 class Recebimento extends Model
 {
+    use HasFactory;
+
     protected $table = 'imorec';
-    protected $primary_key = 'sr_recno';
+    protected $primaryKey = 'sr_recno';
 
     public function contrato() {
         // return $this->belongsTo(Contrato::class, 'chave_imocon_db', 'chave_imorec_db');

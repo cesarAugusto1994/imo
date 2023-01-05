@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Participante extends Model
 {
     protected $table = 'imoven';
-    public $primary_key = 'cgc';
+    public $primaryKey = 'cgc';
     public $incrementing = false;
 
 

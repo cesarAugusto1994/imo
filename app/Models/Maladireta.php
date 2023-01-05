@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Maladireta extends Model
 {
     protected $table = 'imomal';
-    protected $primary_key = 'cgc';
+    protected $primaryKey = 'cgc';
 
     public function responsavel() {
         if ($this->loc == 'Propr.') {

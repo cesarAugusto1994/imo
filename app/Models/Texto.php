@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Texto extends Model
 {
+    use HasFactory;
+
     protected $table = 'imommm';
-    protected $primary_key = 'chave';
+    protected $primaryKey = 'chave';
     public $incrementing = false;
 
 }

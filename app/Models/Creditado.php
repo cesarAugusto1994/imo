@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Creditado extends Model
 {
+    use HasFactory;
+
     protected $table = 'imodup';
-    public $primary_key = 'cgc';
+    public $primaryKey = 'cgc';
     public $incrementing = false;
 
     public function responsavel() {

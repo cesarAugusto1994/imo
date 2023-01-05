@@ -2,13 +2,16 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Texto;
 
 class Contrato extends Model
 {
+    use HasFactory;
+
     protected $table = 'imocon';
-    public $primary_key = 'con';
+    public $primaryKey = 'con';
     public $incrementing = false;
 
     public function proprietario() {
