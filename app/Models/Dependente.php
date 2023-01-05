@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Dependente extends Model
 {
     use HasFactory;
+
+    protected $table = 'imodep';
+
+    protected $primaryKey = 'sr_recno';
+
+    public $incrementing = false;
 }
