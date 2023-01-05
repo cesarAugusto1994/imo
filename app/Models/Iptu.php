@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Iptu extends Model
 {
     use HasFactory;
+
+    protected $table = 'imoipt';
+    protected $primaryKey = 'sr_recno';
 }

@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Pessoa extends Model
 {
     use HasFactory;
+
+    protected $table = 'imopes';
+    protected $primaryKey = 'cgc';
 }
