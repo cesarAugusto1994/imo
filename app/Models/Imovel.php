@@ -8,7 +8,7 @@ use App\Models\Texto;
 class Imovel extends Model
 {
     protected $table = 'imoimo';
-    protected $primaryKey = 'cgc';
+    protected $primaryKey = 'num';
     public $incrementing = false;
 
     public function proprietario() {
