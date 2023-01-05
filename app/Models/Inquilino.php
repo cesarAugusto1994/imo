@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Inquilino extends Model
 {
     use HasFactory;
+
+    protected $table = 'imoinq';
+    public $primaryKey = 'cgc';
+    public $incrementing = false;
+
 }
