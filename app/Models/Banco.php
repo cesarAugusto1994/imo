@@ -2,14 +2,12 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Banco extends Model
 {
-    use HasFactory;
-
-    protected $table = 'imoban';
-    protected $primaryKey = 'cgc';
+    protected $table = 'imobbb';
+    public $primary_key = 'cod';
     public $incrementing = false;
+    
 }
