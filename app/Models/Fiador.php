@@ -10,5 +10,5 @@ class Fiador extends Model
     use HasFactory;
 
     protected $table = 'imofia';
-    protected $primaryKey = 'cgc';
+    protected $primaryKey = 'sr_recno';
 }
