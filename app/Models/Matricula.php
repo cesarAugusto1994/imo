@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Matricula extends Model
 {
     protected $table = 'imomat';
-    protected $primaryKey = 'imo';
+    protected $primaryKey = 'sr_recno';
     public $incrementing = false;
 
     public function imovel() {
